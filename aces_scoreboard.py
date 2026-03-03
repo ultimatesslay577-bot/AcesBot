@@ -30,7 +30,7 @@ tree = bot.tree
 # ---------------- CONFIG ----------------
 
 SCOREBOARD_FILE = os.path.join(DATA_DIR, "aces_scoreboard.json")
-SCOREBOARD_CHANNEL_ID = 1441380119045210255
+SCOREBOARD_CHANNEL_ID = 955234452009799752
 ALLOWED_ROLES = ["admin", "captains"]
 
 scoreboard_message_id = None
@@ -226,4 +226,5 @@ def keep_alive():
 
 
 keep_alive()
+
 bot.run(os.getenv("DISCORD_TOKEN"))
