@@ -1,0 +1,1 @@
+worker: python dinosaurs_scoreboard.py
