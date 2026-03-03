@@ -1,1 +1,1 @@
-worker: python dinosaurs_scoreboard.py
+worker: python aces_scoreboard.py
